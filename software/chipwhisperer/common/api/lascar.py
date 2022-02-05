@@ -35,6 +35,12 @@ def sbox_HW_gen(byte):
         return hamming(sbox[value[byte] ^ guess])
     return selection_with_guess
 
+def inv_sbox_HW_gen(byte):
+    # selection_with_guess function must take 2 arguments: value and guess
+    def selection_with_guess(value, guess):
+        return hamming(inv_sbox[value[byte] ^ guess])
+    return selection_with_guess
+
 def sboxInOut_HD_gen(byte):
     # selection_with_guess function must take 2 arguments: value and guess
     def selection_with_guess(value, guess):

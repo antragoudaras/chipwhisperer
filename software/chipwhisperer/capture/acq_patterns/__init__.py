@@ -9,4 +9,5 @@ KTP:
 from .basic import AcqKeyTextPattern_Basic as Basic
 from .dpahelper import AcqKeyTextPattern_DPA as DPA
 from .tvlattest import AcqKeyTextPattern_TVLATTest as TVLATTest
+from .tvlattest_tragos import AcqKeyTextPattern_TVLATTest_Tragos as TVLATTest_Tragos
 from .var_vec import AcqKeyTextPattern_VarVec as VarVec
