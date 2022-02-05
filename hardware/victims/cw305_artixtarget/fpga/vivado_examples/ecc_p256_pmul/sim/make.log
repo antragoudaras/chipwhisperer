@@ -1,0 +1,19 @@
+Running with seed=1
+FST info: dumpfile results/tb.fst opened for output.
+Encrypting via register...
+Pmul started
+Heartbeat: cycle =     100000
+Heartbeat: cycle =     200000
+Heartbeat: cycle =     300000
+Heartbeat: cycle =     400000
+Heartbeat: cycle =     500000
+Heartbeat: cycle =     600000
+Heartbeat: cycle =     700000
+Heartbeat: cycle =     800000
+Heartbeat: cycle =     900000
+Heartbeat: cycle =    1000000
+Heartbeat: cycle =    1100000
+Good rx: 8101ece47464a6ead70cf69a6e2bd3d88691a3262d22cba4f7635eaff26680a8
+Good ry: d8a12ba61d599235f67d9cb4d58f1783d3ca43e78f0a5abaa624079936c0c3a9
+done!
+Simulation passed (0 warnings).
